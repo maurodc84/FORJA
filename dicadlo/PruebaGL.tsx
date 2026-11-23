@@ -3,7 +3,7 @@ import { Text, View } from 'react-native';
 import { GLView } from 'expo-gl';
 
 export default function PruebaGL() {
-  const [estado, setEstado] = useState('Esperando OpenGL...');
+  const [estado, setEstado] = useState('DiCADlo - Prueba nueva');
   return (
     <View style={{ flex: 1 }}>
       <Text style={{color: 'white'}}>{estado}</Text>
